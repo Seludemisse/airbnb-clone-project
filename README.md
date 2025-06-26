@@ -42,8 +42,29 @@ By completing this project, learners will:
 
 ---
 
+👥 Team Roles
+The success of this project depends on effective collaboration across multiple roles. Each team member brings specific expertise and responsibility to ensure the application is robust, scalable, and well-architected.
+
+🔧 Backend Developer
+Responsible for building and maintaining the server-side logic of the application. This includes designing RESTful APIs and GraphQL endpoints, managing data flow, integrating third-party services, and ensuring code quality and performance.
+
+🗄️ Database Administrator (DBA)
+Designs and manages the project’s relational database (MySQL). Ensures data is structured efficiently, maintains data integrity, and optimizes queries for performance. Also responsible for backups and migrations.
+
+🔐 Security Engineer
+Focuses on securing the application at all levels. Implements authentication and authorization mechanisms (e.g., JWT), validates user input to prevent vulnerabilities (e.g., SQL injection, XSS), and sets up secure API access policies.
+
+🧪 QA Engineer / Tester
+Writes and executes test cases to ensure the application meets quality standards. Covers unit tests, integration tests, and end-to-end testing. Helps catch bugs early and ensure reliable deployment.
+
+🛠 DevOps / Deployment Lead
+Sets up and maintains CI/CD pipelines for automated testing and deployment. Manages environment variables, server configuration, and release strategies. Ensures smooth and repeatable deployments.
+
+📖 Technical Writer / Documentation Lead
+Maintains up-to-date documentation of API endpoints, data models, setup instructions, and contribution guidelines. Ensures the project is accessible and understandable for all collaborators and future contributors.
+
+🎯 Project Manager / Scrum Lead (Optional Role for Large Teams)
+Facilitates team coordination by managing timelines, assigning tasks, organizing meetings, and ensuring alignment with project goals. Uses tools like GitHub Projects, issues, and milestones to track progress.
+
+
 ## 📁 Repository Structure (Coming Soon)
-
-
-
-
