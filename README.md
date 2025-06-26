@@ -226,4 +226,21 @@ The Django admin interface provides administrative control over all entities—u
 🔍 Search & Filtering (Planned/Optional)
 Users will be able to search listings by location, price, and availability. Advanced filtering options may be added to enhance discoverability.
 
+🔐 API Security
+Security is a critical aspect of the Airbnb Clone project to protect sensitive user data, ensure safe transactions, and maintain trust in the platform. Below are the key security measures implemented in the backend APIs:
+
+🔑 Authentication
+We use JWT (JSON Web Tokens) to verify the identity of users securely. Authentication ensures that only registered users can access protected resources, such as booking properties or managing listings, preventing unauthorized access.
+
+🚦 Authorization
+Role-based access control restricts actions based on user roles (e.g., guest vs. host). This prevents users from performing unauthorized operations like modifying others’ listings or bookings, preserving data integrity and privacy.
+
+🛡️ Data Validation & Sanitization
+All incoming data is validated and sanitized to prevent common attacks such as SQL injection and Cross-Site Scripting (XSS), protecting the application and database from malicious inputs.
+
+💳 Secure Payment Handling
+Payment-related endpoints implement additional security measures, including encrypted communication (HTTPS) and validation checks, to safeguard sensitive financial information during transactions.
+
+
+
 ## 📁 Repository Structure (Coming Soon)
