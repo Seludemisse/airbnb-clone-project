@@ -86,4 +86,117 @@ CI/CD (GitHub Actions)	Automates testing and deployment pipelines to ensure new 
 
 Django Test Framework / Pytest	Used to write unit and integration tests to validate logic and prevent regressions during development.
 
+🗄️ Database Design
+The application uses a relational database (MySQL) to manage data. Below are the key entities, their important fields, and relationships between them.
+
+🧑 Users
+Represents guests or hosts using the platform.
+
+id (Primary Key)
+
+username
+
+email
+
+password_hash
+
+role (guest or host)
+
+Relationships:
+
+A user can create multiple properties (if they are a host).
+
+A user can make multiple bookings.
+
+A user can leave multiple reviews.
+
+🏠 Properties
+Listings created by hosts for rent.
+
+id (Primary Key)
+
+host_id (Foreign Key → Users)
+
+title
+
+description
+
+location
+
+price_per_night
+
+Relationships:
+
+A property belongs to one user (host).
+
+A property can have many bookings.
+
+A property can have many reviews.
+
+📆 Bookings
+Tracks reservations made by users.
+
+id (Primary Key)
+
+user_id (Foreign Key → Users)
+
+property_id (Foreign Key → Properties)
+
+start_date
+
+end_date
+
+total_price
+
+Relationships:
+
+A booking belongs to one user and one property.
+
+📝 Reviews
+Feedback left by users about a property.
+
+id (Primary Key)
+
+user_id (Foreign Key → Users)
+
+property_id (Foreign Key → Properties)
+
+rating (e.g., 1–5)
+
+comment
+
+created_at
+
+Relationships:
+
+A review belongs to one user and one property.
+
+💳 Payments
+Handles payment information for bookings.
+
+id (Primary Key)
+
+booking_id (Foreign Key → Bookings)
+
+payment_method
+
+amount
+
+status (e.g., completed, pending)
+
+paid_at
+
+Relationships:
+
+A payment belongs to one booking.
+
+📊 Entity Relationship Summary
+One User → many Properties, Bookings, Reviews
+
+One Property → many Bookings, Reviews
+
+One Booking → one Payment
+
+One Review → belongs to both a User and a Property
+
 ## 📁 Repository Structure (Coming Soon)
