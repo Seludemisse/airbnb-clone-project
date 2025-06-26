@@ -199,4 +199,31 @@ One Booking → one Payment
 
 One Review → belongs to both a User and a Property
 
+✨ Feature Breakdown
+The Airbnb Clone Project replicates the core functionalities of the Airbnb platform to provide a full-stack learning experience. Below are the main features that define the platform's capabilities.
+
+👤 User Management
+Users can register, log in, and manage their profiles. Role-based access allows for both guests (who book properties) and hosts (who list properties), with secure authentication using JWT.
+
+🏠 Property Management
+Hosts can create, update, and delete listings. Each listing includes property details such as location, description, price, and availability, allowing guests to browse and search for options that meet their needs.
+
+📆 Booking System
+Registered users can book available properties for specific dates. The system checks for conflicts, calculates total cost, and stores booking records tied to users and properties.
+
+💳 Payment Integration
+A simulated payment system allows users to complete bookings by submitting payment details. Payments are tied to specific bookings and tracked for confirmation, refunds, or status updates.
+
+📝 Reviews & Ratings
+Users can leave reviews and star ratings for properties they’ve stayed in. These reviews help future guests make informed decisions and provide feedback to hosts.
+
+🔒 Authentication & Authorization
+JWT-based authentication ensures secure access to protected endpoints. Role-based permissions restrict actions to authorized users (e.g., only hosts can manage listings).
+
+🛠 Admin Panel (Django Admin)
+The Django admin interface provides administrative control over all entities—users, listings, bookings, and payments—making it easy to manage and monitor the platform's data.
+
+🔍 Search & Filtering (Planned/Optional)
+Users will be able to search listings by location, price, and availability. Advanced filtering options may be added to enhance discoverability.
+
 ## 📁 Repository Structure (Coming Soon)
