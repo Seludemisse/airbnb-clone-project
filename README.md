@@ -66,5 +66,24 @@ Maintains up-to-date documentation of API endpoints, data models, setup instruct
 🎯 Project Manager / Scrum Lead (Optional Role for Large Teams)
 Facilitates team coordination by managing timelines, assigning tasks, organizing meetings, and ensuring alignment with project goals. Uses tools like GitHub Projects, issues, and milestones to track progress.
 
+🧰 Technology Stack
+This project utilizes a modern backend-focused tech stack designed for scalability, security, and collaboration. Each technology plays a key role in delivering a functional and maintainable Airbnb-like platform.
+
+Technology	Purpose in the Project
+Django	A high-level Python web framework used to build the backend of the application, handle routing, models, views, and manage admin functionality.
+
+MySQL	A reliable relational database management system used to store structured data such as user profiles, bookings, listings, and reviews.
+
+GraphQL	An API query language that provides a flexible way for the frontend to interact with backend data, reducing over-fetching and under-fetching of information.
+
+RESTful API	A conventional web API standard used for CRUD operations; complements GraphQL for services that require simpler, resource-oriented architecture.
+
+Git & GitHub	Used for version control, team collaboration, and managing pull requests, issues, and branches throughout the development process.
+
+JWT (JSON Web Tokens)	Provides secure user authentication by issuing tokens on login that verify identity and access rights across protected routes.
+
+CI/CD (GitHub Actions)	Automates testing and deployment pipelines to ensure new changes are safely integrated into production environments.
+
+Django Test Framework / Pytest	Used to write unit and integration tests to validate logic and prevent regressions during development.
 
 ## 📁 Repository Structure (Coming Soon)
