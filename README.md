@@ -241,6 +241,19 @@ All incoming data is validated and sanitized to prevent common attacks such as S
 💳 Secure Payment Handling
 Payment-related endpoints implement additional security measures, including encrypted communication (HTTPS) and validation checks, to safeguard sensitive financial information during transactions.
 
+🚀 CI/CD Pipeline
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of building, testing, and deploying code changes. This ensures that new features and fixes are integrated smoothly and released reliably without manual intervention.
+
+For the Airbnb Clone project, CI/CD pipelines help maintain code quality, catch bugs early through automated testing, and speed up the delivery of updates to production.
+
+Tools Used:
+
+GitHub Actions: Automates workflows such as running tests on every pull request and deploying code after successful builds.
+
+Docker: Provides consistent environments for development, testing, and deployment by containerizing the application.
+
+Implementing CI/CD ensures faster iteration, reduces human error, and improves overall team collaboration.
+
 
 
 ## 📁 Repository Structure (Coming Soon)
